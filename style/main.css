@@ -89,7 +89,7 @@ main .btn-cart{
       border-color: #f6b93b;
       transition: all 0.4s ease 0s;
   }
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
       main .hotel_list{
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -116,7 +116,7 @@ main .btn-cart{
           padding-top: 60px;
       }
   }
-@media (min-width: 1220px) {
+@media (min-width: 1412px) {
     main .hotel_list{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
