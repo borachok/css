@@ -5,13 +5,16 @@
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
     --logo-color:#4c5052;
-    background-color: black;
 }
 body {
     margin: auto;
 }
 .hotel_wrapper{
     background-color: #ececec;
+}
+
+.hotel_wrapper > .hotel_wrapper_pad > .hotel_list h3 {
+    padding-bottom: 20px;
 }
 .hotel_wrapper_pad{
     padding-bottom: 20px;
@@ -32,10 +35,12 @@ header nav .menu {
 }
 header nav .menu a {
     text-decoration: none;
+    font-size: 18px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 5px;
     color: black;
+    word-wrap: break-spaces;
 }
 header nav .menu a:hover{
     border-bottom: 1px solid black;
@@ -96,6 +101,10 @@ main .btn-cart{
           grid-template-columns: 1fr 1fr;
           grid-gap: 10px;
       }
+
+    header nav .menu a {
+        font-size: 25px;
+    }
       .about_us_list{
           display: flex;
           justify-content: space-around;
@@ -123,6 +132,10 @@ main .btn-cart{
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
 
+    }
+
+    header nav .menu a {
+        font-size: 25px;
     }
     .sponsor-cart{
         display: grid;
@@ -167,6 +180,19 @@ main .about_us_text{
 }
 .logo_sponsor img{
    margin: 0 auto;
+}
+
+.logo_sponsor {
+    display: flex;
+    margin: 0 auto;
+}
+
+.form button {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    padding-top: 50px;
 }
 .footer{
     background-color: #a5936f;
