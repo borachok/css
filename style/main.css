@@ -5,6 +5,7 @@
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
     --logo-color:#4c5052;
+    background-color: black;
 }
 body {
     margin: auto;
@@ -179,7 +180,4 @@ main .about_us_text{
 }
 .footer .contact{
     padding-right: 60px;
-}
-.footer .contact span{
-    font-family: "Segoe UI Black";
 }
