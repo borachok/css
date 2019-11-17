@@ -229,6 +229,16 @@ main .about_us_text{
     align-items: center;
     flex-wrap: wrap;
 }
+
+.our-contact p {
+    font-size: 20px;
+}
+
+.our-contact p span {
+    color: #5594a7;
+    font-weight: bold;
+    padding-right: 5px;
+}
 .footer{
     background-color: #a5936f;
 }
