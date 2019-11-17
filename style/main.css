@@ -194,6 +194,41 @@ main .about_us_text{
 .form-container {
     padding-top: 50px;
 }
+
+.contact > .container > .contact-main > .button-transform {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 500px;
+}
+
+.contact > .container > .contact-main > .button-transform:focus {
+    -webkit-animation: scaleme 1s;
+}
+
+@-webkit-keyframes scaleme {
+    0% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3);
+        opacity: 0;
+        display: none;
+    }
+}
+
+.contact > .container > .contact-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.our-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .footer{
     background-color: #a5936f;
 }
