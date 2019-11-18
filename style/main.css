@@ -240,7 +240,7 @@ main .about_us_text {
     display: block;
     margin: 0 auto;
     height: 100px;
-    width: 276px;
+    width: 250px;
     border-radius: 10px;
 }
 
@@ -288,19 +288,6 @@ main .about_us_text {
     font-size: 2em;
     color: #5594a7;
 }
-
-/*.threeD {*/
-/*    color: #dcd7d7;*/
-/*    white-space: nowrap;*/
-/*    transform: translate(-50%, -50%);*/
-/*    font-size: 2em;*/
-/*    font-family: sans-serif;*/
-/*    letter-spacing: 0.1em;*/
-/*    transition: 0.3s;*/
-/*    text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,*/
-/*    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,*/
-/*    5px 13px 15px black;*/
-/*}*/
 
 .footer {
     background-color: #a5936f;
