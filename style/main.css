@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 :root {
     font-family: 'Raleway', sans-serif;
@@ -83,6 +84,11 @@ main .hotel_list img {
     width: 100%;
 }
 
+main .hotel_list button a {
+    text-decoration: none;
+    color: black;
+}
+
 main .hotel_list h3 {
     text-align: center;
     padding-bottom: 5px;
@@ -103,6 +109,7 @@ main .btn-cart {
     border: 1px solid #494949;
     border-radius: 5px;
     transition: all 0.4s ease 0s;
+
 }
 
 .card_button:hover {
@@ -234,8 +241,6 @@ main .about_us_text {
     margin: 0 auto;
     height: 100px;
     width: 276px;
-    background: rgb(34, 193, 195);
-    background: linear-gradient(216deg, rgba(34, 193, 195, 1) 0%, rgba(185, 172, 92, 1) 47%, rgba(224, 17, 7, 1) 98%);
     border-radius: 10px;
 }
 
@@ -277,18 +282,25 @@ main .about_us_text {
     padding-right: 5px;
 }
 
-.threeD {
-    color: #dcd7d7;
-    white-space: nowrap;
-    transform: translate(-50%, -50%);
+.contact-us {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
     font-size: 2em;
-    font-family: sans-serif;
-    letter-spacing: 0.1em;
-    transition: 0.3s;
-    text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
-    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
-    5px 13px 15px black;
+    color: #5594a7;
 }
+
+/*.threeD {*/
+/*    color: #dcd7d7;*/
+/*    white-space: nowrap;*/
+/*    transform: translate(-50%, -50%);*/
+/*    font-size: 2em;*/
+/*    font-family: sans-serif;*/
+/*    letter-spacing: 0.1em;*/
+/*    transition: 0.3s;*/
+/*    text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,*/
+/*    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,*/
+/*    5px 13px 15px black;*/
+/*}*/
 
 .footer {
     background-color: #a5936f;
