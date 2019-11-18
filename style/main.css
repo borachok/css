@@ -154,6 +154,7 @@ main .btn-cart {
     .banner h2 {
         padding-top: 60px;
     }
+
 }
 
 @media (min-width: 1200px) {
@@ -172,6 +173,11 @@ main .btn-cart {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 5px;
+    }
+
+    .main-form {
+        padding-left: 220px;
+        padding-right: 220px;
     }
 }
 
