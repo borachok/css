@@ -1,38 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Righteous&display=swap');
 
-:root{
+:root {
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
-    --logo-color:#4c5052;
+    --logo-color: #4c5052;
 }
+
 body {
     margin: auto;
 }
-.hotel_wrapper{
+
+.hotel_wrapper {
     background-color: #ececec;
 }
 
 .hotel_wrapper > .hotel_wrapper_pad > .hotel_list h3 {
     padding-bottom: 20px;
 }
-.hotel_wrapper_pad{
+
+.hotel_wrapper_pad {
     padding-bottom: 20px;
 }
-.container{
+
+.container {
     max-width: 980px;
     margin: 0 auto;
 }
+
 h1, h2, h3, p, div, nav, header, footer {
     margin: 0;
     padding: 0;
 }
+
 header nav .menu {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     padding: 0;
 }
+
 header nav .menu a {
     text-decoration: none;
     font-size: 18px;
@@ -42,92 +49,108 @@ header nav .menu a {
     color: black;
     word-wrap: break-spaces;
 }
-header nav .menu a:hover{
+
+header nav .menu a:hover {
     border-bottom: 1px solid black;
     transition: 1s;
 }
-header h2{
+
+header h2 {
     font-family: 'Righteous', cursive;
     text-align: center;
     font-size: 2rem;
     color: var(--logo-color);
 }
-.banner h3{
+
+.banner h3 {
     text-align: center;
     font-size: 1rem;
 }
-.header_wrapper{
+
+.header_wrapper {
     background-color: #fdffff;
 }
 
-.name_hotel{
+.name_hotel {
     font-size: 2rem;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
 }
-main .hotel_list img{
+
+main .hotel_list img {
     display: block;
     width: 100%;
 }
-main .hotel_list h3{
+
+main .hotel_list h3 {
     text-align: center;
     padding-bottom: 5px;
 }
-main .btn-cart{
-     margin-top: 5px;
-     display: flex;
-     justify-content: space-around;
- }
+
+main .btn-cart {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .card_button {
-      color: #494949;
-      text-transform: uppercase;
-      text-decoration: none;
-      background: #ffffff;
-      padding: 3px;
-      border: 1px solid #494949;
-      border-radius: 5px;
-      transition: all 0.4s ease 0s;
-  }
-.card_button:hover{
-      color: #ffffff;
-      background: #f6b93b;
-      border-color: #f6b93b;
-      transition: all 0.4s ease 0s;
-  }
+    color: #494949;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 3px;
+    border: 1px solid #494949;
+    border-radius: 5px;
+    transition: all 0.4s ease 0s;
+}
+
+.card_button:hover {
+    color: #ffffff;
+    background: #f6b93b;
+    border-color: #f6b93b;
+    transition: all 0.4s ease 0s;
+}
+
 @media (min-width: 800px) {
-      main .hotel_list{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-gap: 10px;
-      }
+    main .hotel_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
 
     header nav .menu a {
         font-size: 25px;
     }
-      .about_us_list{
-          display: flex;
-          justify-content: space-around;
-      }
-      .sponsor-cart{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-gap: 5px;
-      }
-      header h2{
-          font-size: 4rem;
 
-      }
-      .banner h3{
-          font-size: 1rem;
-          padding-bottom: 60px;
-      }
-      .banner h2{
-          padding-top: 60px;
-      }
-  }
+    .about_us_list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sponsor-cart {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    header h2 {
+        font-size: 4rem;
+
+    }
+
+    .banner h3 {
+        font-size: 1rem;
+        padding-bottom: 60px;
+    }
+
+    .banner h2 {
+        padding-top: 60px;
+    }
+}
+
 @media (min-width: 1200px) {
-    main .hotel_list{
+    main .hotel_list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
@@ -137,49 +160,60 @@ main .btn-cart{
     header nav .menu a {
         font-size: 25px;
     }
-    .sponsor-cart{
+
+    .sponsor-cart {
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 5px;
     }
 }
-hr{
+
+hr {
     margin-left: 20%;
     margin-right: 20%;
 }
-.about_us{
+
+.about_us {
     display: flex;
     background-color: #e6f3f9;
 }
-main .about_us_text{
+
+main .about_us_text {
     text-align: center;
     font-size: 2rem;
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.about_us_list{
+
+.about_us_list {
     margin-top: 10px;
 }
-.icon img{
+
+.icon img {
     display: block;
     margin: 0 auto;
 }
-.about_cart>.text_about{
+
+.about_cart > .text_about {
     text-align: center;
 }
-.about_wrapper{
+
+.about_wrapper {
     margin-top: 20px;
     padding-bottom: 20px;
 }
-.sponsor{
- background: url("../img/bg_sponsor.jpg")center center/cover no-repeat;
+
+.sponsor {
+    background: url("../img/bg_sponsor.jpg") center center/cover no-repeat;
 }
-.sponsor-cart{
+
+.sponsor-cart {
     padding-top: 100px;
     padding-bottom: 40px;
 }
-.logo_sponsor img{
-   margin: 0 auto;
+
+.logo_sponsor img {
+    margin: 0 auto;
 }
 
 .logo_sponsor {
@@ -199,7 +233,10 @@ main .about_us_text{
     display: block;
     margin: 0 auto;
     height: 100px;
-    width: 500px;
+    width: 276px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(216deg, rgba(34, 193, 195, 1) 0%, rgba(185, 172, 92, 1) 47%, rgba(224, 17, 7, 1) 98%);
+    border-radius: 10px;
 }
 
 .contact > .container > .contact-main > .button-transform:focus {
@@ -239,16 +276,32 @@ main .about_us_text{
     font-weight: bold;
     padding-right: 5px;
 }
-.footer{
+
+.threeD {
+    color: #dcd7d7;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+
+.footer {
     background-color: #a5936f;
 }
-.footer_wrapper{
+
+.footer_wrapper {
     display: flex;
     justify-content: space-between;
     height: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.footer .contact{
+
+.footer .contact {
     padding-right: 60px;
 }
