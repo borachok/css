@@ -1,14 +1,4 @@
-// document.getElementById("btnRemove")
-//     .addEventListener('click', removeBtn)
-//
-//
-// function removeBtn() {
-//     setTimeout(function () {
-//         document.getElementById("btnRemove").remove();
-//     },800);
-// }
-
-document.getElementById('btnRemove')
+document.getElementById('contactUs')
     .addEventListener('click', getContactBlock);
 
 function getContactBlock() {
