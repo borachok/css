@@ -99,7 +99,19 @@ main .btn-cart {
     display: flex;
     justify-content: space-around;
 }
-
+main .btn-cart a{
+    text-decoration: none;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+main .btn-cart a:hover{
+    background-color: #f6b93b;
+    color: #ffffff;
+}
 .card_button {
     color: #494949;
     text-transform: uppercase;
@@ -111,6 +123,7 @@ main .btn-cart {
     transition: all 0.4s ease 0s;
 
 }
+
 
 .card_button:hover {
     color: #ffffff;
